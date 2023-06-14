@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Zelda games</title>
+<link rel="icon" type="image/x-icon" href="random.jpeg">
+<link href="https://unpkg.com/movement.css/movement.css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://bouncecss.bookie0.repl.co/bounce.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div data-m="bounce-up" class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">Zelda Games</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div data-m="glitch" class="w3-display-left w3-text-white" style="padding:48px">
+    <span data-m="reveal-right" data-m-delay="0.75" class="w3-jumbo w3-hide-small">Play Zelda Games</span><br>
+    <span data-m="reveal-right" data-m-delay="1" class="w3-xxlarge w3-hide-large w3-hide-medium">Play Zelda Games</span><br>
+    <span data-m="reveal-right" data-m-delay="1.25" class="w3-large">Play Zelda games in a browser</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">About Huntedkitty</h3>
+  <p class="w3-center w3-large">What I can do</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Website</p>
+      <p>I am a front end developer and can make websites</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Passion</p>
+      <p>I have none</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Design</p>
+      <p>I draw alot of stuff in my freetime when I'm not watching anime and coding</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Support</p>
+      <p>I'm not that good in backend developing, but I know some stuff</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Notice</h3>
+      <p>The purpose of Zelda Games (Using emulator js) is to serve as a nonprofit 
+          meta-resource hub and community for those interested mainly in video game
+          preservation and computer history which aims to digitally collect, archive
+          and preserve games and software to make them available online accessible by
+          a user-friendly UI that simulates several retro operating systems for educational purposes.</p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="back2.jpeg" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">People that need to be credit</h3>
+  <p class="w3-center w3-large">They helped out alot</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="surfingTomato.png" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Huntedkitty</h3>
+          <p class="w3-opacity">CEO & Founder, Me!</p>
+          <p>Web Developer/Lua Scripter/Rom Gamer If you want a specific Retro Game uploaded, just ask. Also check out my youtube channel</p>
+          <p><a href="https://huntedkittys-website.huntedkitty.repl.co/" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Website</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="pfp.png" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Bookie0</h3>
+          <p class="w3-opacity">Bounce.css library</p>
+          <p>16 y/o designer & (sometimes) developer
+high school student
+Designer @ Replit, previously @ Hyperform, OSSC</p>
+          <p><a href="https://bookie0.repl.co/" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Website</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="pfp2.png" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Samalander</h3>
+          <p class="w3-opacity">Movement.css library</p>
+          <p>I make award-winning websites, weird designs, and other random stuff sam@samalander.dev</p>
+          <p><a href="https://www.samalander.dev/" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Website</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="download.png" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>w3.css</h3>
+          <p class="w3-opacity">The core of the website</p>
+          <p>W3. CSS is a modern CSS framework with built-in responsiveness. It supports responsive mobile first design by default, and it is smaller and faster than similar CSS frameworks.</p>
+          <p><a href="https://www.w3schools.com/" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Website</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">6+</span>
+    <br>Partners
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">125+</span>
+    <br>Projects Done
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">87+</span>
+    <br>Happy Clients
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">5+</span>
+    <br>Meetings
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">Games</h3>
+  <p class="w3-center w3-large">Have fun</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+          <a href="https://majoras-mask.huntedkitty.repl.co/" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="loading"><center>Majora's Mask</center></a>
+    </div>
+    <div class="w3-col l3 m6">
+       <a href="https://ocarina-of-time.huntedkitty.repl.co/" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="loading"><center>Ocarina of time</center></a>
+    </div>
+    <div class="w3-col l3 m6">
+      <a href="https://1st-game.huntedkitty.repl.co/" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="loading"><center>The First Zelda Game</center></a>
+    </div>
+    <div class="w3-col l3 m6">
+      <a href="https://2nd-game.huntedkitty.repl.co/" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="loading"><center>A Link to the Past</center></a>
+    </div>
+  </div>
+
+
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_tablet.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coming soon">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_camera.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coming soon">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_typewriter.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coming soon">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_tableturner.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coming soon">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Our Skills.</h3>
+      <p>Gaming:100%</p>
+      <p>Front end:85%</p>
+      <p>Back end:45%</p>
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Gaming</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:100%">100%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Front end</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Backend</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:45%">45%</div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i>SEND MESSAGE
+        </button>
+      </p>
+    </form>
+    <!-- Image of location/map -->
+    <img src="" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by<a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+ 
+<script src="script.js"></script>
+
+</body>
+</html>
